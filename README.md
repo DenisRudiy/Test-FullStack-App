@@ -9,4 +9,10 @@ Plugins for back-end:
 
 npm init -y
 
+npm install @hapi/hapi
 
+npm install --save-dev @babel/core @babel/node @babel/preset-env @babel/plugin-transform-runtime
+
+npm install @babel/runtime
+
+npm install @hapi/boom
