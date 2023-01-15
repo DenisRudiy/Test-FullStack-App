@@ -6,4 +6,7 @@ To run a local angular app type:  ng serve
 To run a node server type:  npm run dev
 
 Plugins for back-end: 
+
 npm init -y
+
+
