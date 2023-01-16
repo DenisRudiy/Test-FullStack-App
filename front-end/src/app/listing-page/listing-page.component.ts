@@ -15,6 +15,7 @@ export class ListingPageComponent {
   ) {}
 
   ngOnInit():void {
-    this.listings = this.ListingsService.getListings();
+    this.ListingsService.getListings()
+      .subscribe(listings => this.listings = listings);
   }
 }
