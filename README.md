@@ -18,3 +18,5 @@ npm install @babel/runtime
 npm install @hapi/boom
 
 npm install mysql
+
+npm install uuid
