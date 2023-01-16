@@ -2,7 +2,7 @@ import { db } from "../database";
 
 export const addViewToListingRoute = {
     method: 'POST',
-    path: '/api/listings/{id}/add-view',
+    path: '/api/listing/{id}/add-view',
     handler: async (req, h) => {
         const id = req.params.id;
         await db.query(
