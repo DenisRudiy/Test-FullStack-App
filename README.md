@@ -1,7 +1,7 @@
 # Test-FullStack-App
  Create Web-app using Angular+NodeJS+MySQL technologies
 
-To run a local angular app type:  ng serve --proxy-config proxy.config.json
+To run a local angular app type:  npm run start
 
 To run a node server type:  npm run dev
 
